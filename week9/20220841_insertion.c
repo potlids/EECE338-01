@@ -49,17 +49,17 @@ int main(int argc, char *argv[])
         for(i = 0; i < n; i++){
             printf("%d ", target[i]);
         }
-        print("]\n");
+        printf("]\n");
         printf("After sort   (C): [ ");
         for(i = 0; i < n; i++){
             printf("%d ", target_C[i]);
         }
-        print("]\n");
+        printf("]\n");
         printf("After sort (ASM): [ ");
         for(i = 0; i < n; i++){
             printf("%d ", target_ASM[i]);
         }
-        print("]\n");
+        printf("]\n");
     }
     printf("Execution Time   (C): %.lf[s]", C_time);
     printf("Execution Time (ASM): %.lf[s]", ASM_time);
